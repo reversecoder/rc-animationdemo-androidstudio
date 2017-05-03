@@ -1,4 +1,4 @@
-package com.bjit.frameanimation.activity;
+package com.reversecoder.frameanimation.activity;
 
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.bjit.frameanimation.R;
+import com.reversecoder.frameanimation.R;
 
 public class MainActivity extends AppCompatActivity {
 
