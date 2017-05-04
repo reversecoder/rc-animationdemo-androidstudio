@@ -7,7 +7,7 @@ android {
     compileSdkVersion appCompileSdkVersion
     buildToolsVersion appBuildToolsVersion
     defaultConfig {
-        applicationId "com.reversecoder.frameanimation"
+        applicationId "com.reversecoder.animation"
         minSdkVersion appMinSdkVersion
         targetSdkVersion appTargetSdkVersion
         versionCode appVersionCode

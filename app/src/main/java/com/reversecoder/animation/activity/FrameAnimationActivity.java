@@ -1,4 +1,4 @@
-package com.reversecoder.frameanimation.activity;
+package com.reversecoder.animation.activity;
 
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
@@ -7,9 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.reversecoder.frameanimation.R;
+import com.reversecoder.animation.R;
 
-public class MainActivity extends AppCompatActivity {
+/*
+* @author Md. Rashadul Alam
+* */
+public class FrameAnimationActivity extends AppCompatActivity {
 
     ImageView frameAnimationImageView;
     AnimationDrawable frameAnimation;
@@ -18,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_frame_animation);
 
         initUI();
 
